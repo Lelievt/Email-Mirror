@@ -1,0 +1,79 @@
+    <div>
+        <div id="card_imap_auth">
+            <div class="card_imap">
+                Email: <input id="Email_Imap" type="text" name="fname"><br>
+                Password: <input id="Password_Imap" type="password" name="lname"><br>
+                <select>
+                    <option value="IMAP-mail.Outlook.com">Outlook</option>
+                    <option value="IMAP.gmail.com">Gmail</option>
+                </select>
+                <button id="button_connect_auth">Submit</button>
+            </div>
+            <style>
+                .card_imap {
+                    color: white;
+                    padding: 10px;
+                    background-color: rgba(0, 0, 0, 0);
+                    border-radius: 5px;
+                    border: 1px solid rgba(255, 255, 255, 0.75);
+                }
+                input {
+                    border-radius: 2px;
+                    border: 1px solid rgba(255, 255, 255, 0.75);
+                    color: white;
+                    background-color: rgba(0, 0, 0, 0);
+                }
+            </style>        
+        </div>
+        <div id="card_imap_list">
+            <div class="card_imap">
+                <ul id="latest_mails">
+                </ul>
+            </div>
+            <style>
+                li {
+                    padding: 10px
+                }
+                .subject_minimised {
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+                .from_minimised {
+                    font-size: 13px;
+                    font-weight: 400;
+                }
+                .card_imap {
+                    color: white;
+                    padding: 10px;
+                    background-color: rgba(0, 0, 0, 0);
+                    border-radius: 5px;
+                    border: 1px solid rgba(255, 255, 255, 0.75);
+                }
+            </style>        
+        </div>
+        <div id="card_imap_mail_display">
+            <div class="card_imap">
+            </div>
+            <style>
+                li {
+                    padding: 10px
+                }
+                .subject_minimised {
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+                .from_minimised {
+                    font-size: 13px;
+                    font-weight: 400;
+                }
+                .card_imap {
+                    color: white;
+                    padding: 10px;
+                    background-color: rgba(0, 0, 0, 0);
+                    border-radius: 5px;
+                    border: 1px solid rgba(255, 255, 255, 0.75);
+                    overflow: scroll;
+                }
+            </style>            
+        </div>
+    </div>
